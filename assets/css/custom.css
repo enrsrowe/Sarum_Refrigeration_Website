@@ -95,16 +95,20 @@
     .carousel img {
       width: 100%;
       height: 350px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
+
+      border-radius:5px;
+      -webkit-border-radius:5px;
+      -moz-border-radius:5px;
     }
 
     .carousel-caption {
-      background-color: transparent;
+      background-color: transparent black 0.5;
       /*opacity: 0.5;*/
 
-      width: 90%;
-      max-width: 750px;
+      /*width: 90%;*/
+      /*max-width: 750px;*/
+
+
     }
 
     .carousel-caption h1,
@@ -449,6 +453,15 @@
   background: url('../img/clients/client5.png') 0 0px;
 }
 
+.client6 {  
+  background: url('../img/clients/client6.png') 0 -75px;
+}
+.client6:hover {
+  cursor: pointer;
+  /*border-radius: 8px;*/
+  background: url('../img/clients/client6.png') 0 0px;
+}
+
 /*About page */
 .section_header {
   width: 100%;
@@ -666,3 +679,16 @@ width: 76%;
 
       /* 28/03/13 Hover popover */
       /*#blob {position: absolute; top: 100px; left: 100px;}*/
+
+
+      /*24/04/13 - Round corners for about images */
+
+  .aboutimage{
+        border-radius:4px;
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px;
+
+        -webkit-box-shadow: 0 2px 5px rgba(33,33,33,0.4);
+        -moz-box-shadow: 0 2px 5px rgba(33,33,33,0.4);
+        box-shadow: 0 2px 5px rgba(33,33,33,0.4);
+  }
