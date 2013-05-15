@@ -683,7 +683,7 @@ width: 76%;
 
       /*24/04/13 - Round corners for about images */
 
-  .aboutimage{
+      .aboutimage{
         border-radius:4px;
         -webkit-border-radius:4px;
         -moz-border-radius:4px;
@@ -691,4 +691,6 @@ width: 76%;
         -webkit-box-shadow: 0 2px 5px rgba(33,33,33,0.4);
         -moz-box-shadow: 0 2px 5px rgba(33,33,33,0.4);
         box-shadow: 0 2px 5px rgba(33,33,33,0.4);
-  }
+      }
+
+
